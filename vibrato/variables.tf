@@ -5,3 +5,7 @@ variable "hostname" {
 variable "token" {
   default = ""
 }
+
+variable "secret_value" {
+  default = ""
+}
