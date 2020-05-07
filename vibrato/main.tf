@@ -6,7 +6,7 @@ provider "tfe" {
 
 module "application-a-workspace-prod" {
   source  = "ptfe.servian-sg.gradeous.io/admin/provisioner/enterprise"
-  version = "0.0.3"
+  version = "0.0.4"
   organization = "vibrato"
   workspace_name = "application-a-workspace-prod"
   vcs_repo     = {
@@ -21,7 +21,7 @@ module "application-a-workspace-prod" {
 
 module "application-a-workspace-dev" {
   source  = "ptfe.servian-sg.gradeous.io/admin/provisioner/enterprise"
-  version = "0.0.3"
+  version = "0.0.4"
   organization = "vibrato"
   workspace_name = "application-a-workspace-dev"
   vcs_repo     = {
