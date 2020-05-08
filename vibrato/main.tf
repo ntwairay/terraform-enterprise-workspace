@@ -33,3 +33,18 @@ module "application-a-workspace-dev" {
   secret_key = "top-secret"
   secret_value = var.secret_value
 }
+
+module "application-a-workspace-test" {
+  source  = "ptfe.servian-sg.gradeous.io/admin/provisioner/enterprise"
+  version = "0.0.4"
+  organization = "vibrato"
+  workspace_name = "application-a-workspace-test"
+  vcs_repo     = {
+    identifier = "ntwairay/demo-applicatoin-a"
+    branch     = "develop"
+    oauth_token_id = "ot-tU8ca4HmPNnN91sp"
+  }
+  working_directory="terraform/test"
+  secret_key = "top-secret"
+  secret_value = var.secret_value
+}
