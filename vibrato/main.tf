@@ -10,7 +10,7 @@ module "application-a-workspace-prod" {
   organization = "vibrato"
   workspace_name = "application-a-workspace-prod"
   vcs_repo     = {
-    identifier = "ntwairay/demo-applicatoin-a"
+    identifier = "ntwairay/demo-application-a"
     branch     = "master"
     oauth_token_id = "ot-tU8ca4HmPNnN91sp"
   }
@@ -25,7 +25,7 @@ module "application-a-workspace-dev" {
   organization = "vibrato"
   workspace_name = "application-a-workspace-dev"
   vcs_repo     = {
-    identifier = "ntwairay/demo-applicatoin-a"
+    identifier = "ntwairay/demo-application-a"
     branch     = "master"
     oauth_token_id = "ot-tU8ca4HmPNnN91sp"
   }
@@ -40,7 +40,7 @@ module "application-a-workspace-test" {
   organization = "vibrato"
   workspace_name = "application-a-workspace-test"
   vcs_repo     = {
-    identifier = "ntwairay/demo-applicatoin-a"
+    identifier = "ntwairay/demo-application-a"
     branch     = "develop"
     oauth_token_id = "ot-tU8ca4HmPNnN91sp"
   }
